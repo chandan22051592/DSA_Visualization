@@ -7,7 +7,7 @@ import ErrorPage from './components/ErrorPage'
 import ArrayMethods from './pages/Array';
 import StackMethods from './pages/Stack';
 import LinkedListMethods from './pages/Linkedlist';
-// import QueueMethods from './pages/Queue';
+import QueueMethods from './pages/Queue';
 // import GraphMethods from './pages/Graph';  
 
 
@@ -25,7 +25,7 @@ function App() {
           <Route path="/Array" element={<ArrayMethods />} />
           <Route path="/Linkedlist" element={<LinkedListMethods />} />
           <Route path="/Stack" element={<StackMethods />} />
-          <Route path="/Queue" element={<ErrorPage />} />
+          <Route path="/Queue" element={<QueueMethods />} />
           <Route path="/Graph" element={<ErrorPage />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
