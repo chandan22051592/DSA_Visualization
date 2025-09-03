@@ -19,15 +19,20 @@ function Hero(){
 
                 <div className="flex space-x-6">
                     <a
-                        href="#"
+                        href={import.meta.env.VITE_GITHUB_LINK || "#"}
+                        target="_blank"
+
+                        rel="noopener noreferrer"
                         className="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-xl shadow-lg transition transform hover:scale-105"
                     >
                         GitHub Code
                     </a>
                     <a
-                        href="#"
+                        href={import.meta.env.VITE_LINKEDIN_LINK || "#"}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="px-6 py-3 bg-pink-600 hover:bg-pink-700 rounded-xl shadow-lg transition transform hover:scale-105"
-                    >
+                    >   
                         Creator
                     </a>
                 </div>
