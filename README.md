@@ -55,17 +55,16 @@ Click Deploy 🎉
 Your project will be live at:
 👉 https://your-project-name.vercel.app
 
-🛠️ Tech Stack
+
+## 🛠️ Tech Stack
 ⚡ React + Vite – Fast development & HMR
 🎨 Tailwind CSS – Styling
 🔗 React Router – Navigation
 📦 Lucide Icons – Icons
-📸 Preview
-(Add screenshots or demo GIF here)
 
-📬 Contribution
+
+### 📬 Contribution
 Contributions are welcome! Feel free to open issues or submit PRs.
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
 
