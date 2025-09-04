@@ -17,8 +17,9 @@ Built with **React + Vite** and styled using **Tailwind CSS**.
 
 ## 📂 Project Setup
 
-### 1️⃣ Clone the Repository
+
 ```bash
+1️⃣ Clone the Repository
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
@@ -38,31 +39,37 @@ These values will be used for the GitHub and LinkedIn buttons in the project.
 bash
 npm run dev
 Now open 👉 http://localhost:5173 in your browser.
+```
+---
+## ☁️ Deployment on Vercel
 
-☁️ Deployment on Vercel
-You can deploy this project for free on Vercel.
+You can deploy this project for free on [Vercel](https://vercel.com).
 
-Steps:
+---
 
-Push your code to GitHub.
-Go to Vercel and click New Project.
-Import your GitHub repository.
-In the Environment Variables section of the project settings, add:
-env
-VITE_GITHUB_LINK="https://github.com/your-profile"
-VITE_LINKEDIN_LINK="https://www.linkedin.com/in/your-profile"
-Click Deploy 🎉
+### 🚀 Steps:
+
+1. Push your code to **GitHub**  
+2. Go to [Vercel](https://vercel.com) and click **New Project**  
+3. Import your **GitHub repository**  
+4. In the **Environment Variables** section of the project settings, add:  
+   ```env
+   VITE_GITHUB_LINK="https://github.com/your-profile"
+   VITE_LINKEDIN_LINK="https://www.linkedin.com/in/your-profile"
+
+5.Click Deploy 🎉
 Your project will be live at:
 👉 https://your-project-name.vercel.app
 
+---
 
 ## 🛠️ Tech Stack
-⚡ React + Vite – Fast development & HMR
-🎨 Tailwind CSS – Styling
-🔗 React Router – Navigation
-📦 Lucide Icons – Icons
+- ⚡ React + Vite – Fast development & HMR
+- 🎨 Tailwind CSS – Styling
+- 🔗 React Router – Navigation
+- 📦 Lucide Icons – Icons
 
-
+---
 ### 📬 Contribution
 Contributions are welcome! Feel free to open issues or submit PRs.
 
