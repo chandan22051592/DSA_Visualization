@@ -14,7 +14,8 @@ function Hero(){
                 <p className="text-gray-400 max-w-2xl mb-8">
                     Experience a transformative approach to DSA learning through immersive
                     visualizations, simplifying intricate concepts for deeper comprehension
-                    and mastery.
+                    and mastery. 
+                    <br /><br />Note : The purpose of this project is to help beginners understand DSA concepts visually.
                 </p>
 
                 <div className="flex space-x-6">
