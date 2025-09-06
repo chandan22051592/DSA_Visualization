@@ -40,14 +40,14 @@ function Header() {
   return (
     <nav className="flex justify-between items-center px-6 md:px-10 py-4 bg-gray-800 shadow-md">
       {/* Logo + Title */}
-      <div className="flex items-center space-x-2">
+      <Link to="/" className="flex items-center space-x-2 cursor-pointer">
         <div className="w-9 h-9 rounded-lg">
           <img src={logo2} alt="Logo" className="w-full h-full object-cover" />
         </div>
         <h1 className="text-lg md:text-xl font-bold">
           <span className="text-lime-500">DSA</span> Visualization
         </h1>
-      </div>
+      </Link>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-6 text-gray-300 font-medium">
