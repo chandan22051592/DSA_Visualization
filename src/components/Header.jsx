@@ -1,34 +1,3 @@
-// import logo2 from '../assets/logo2.svg';
-// import { Link } from "react-router-dom";
-
-// function Header() {
-//     return (
-//         <nav className="flex justify-between items-center px-10 py-4 bg-gray-800 shadow-md">
-//             <div className="flex items-center space-x-2">
-//                 <div className="w-9 h-9 rounded-lg">
-//                     <img src={logo2} alt="Logo" className="w-full h-full object-cover" />
-//                 </div>
-//                 <h1 className="text-xl font-bold">
-//                     <span className="text-lime-500">DSA</span> Visualization
-//                 </h1>
-//             </div>
-
-//             <div className="space-x-6 text-gray-300 font-medium">
-//                 <Link to="/" className="hover:text-purple-400">Home</Link>
-//                 <Link to="/Array" className="hover:text-purple-400">Array</Link>
-//                 <Link to="/Linkedlist" className="hover:text-purple-400">Linked List</Link>
-//                 <Link to="/Stack" className="hover:text-purple-400">Stack</Link>
-//                 <Link to="/Queue" className="hover:text-purple-400">Queue</Link>
-//                 <Link to="/Tree" className="hover:text-purple-400">Tree</Link>
-//                 <Link to="/Graph" className="hover:text-purple-400">Graph</Link>
-//             </div>
-//         </nav>
-//     );
-// }
-
-// export default Header;
-
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react"; // icons for hamburger
